@@ -1,0 +1,25 @@
+# Configure The Drop Rate and Item(s) That drop as well as the Message to the Player.
+# Drop-Rate 1-1000. 1000=100%, 1=.1%
+
+# Must Cut grass with sword.
+# Drop Messages will always be expressed in Green.
+# Only Item 1 and Item 2 exist, adding more does nothing.
+# List of Drop Items and How they're Typed:
+# https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+
+Drops:
+  Item-1:
+    Type: EMERALD
+    Drop-Rate: 5
+    Drop-Message: "You just found a 'Rupee' from the Grass! Lucky you!"
+  Item-2:
+    Type: DIAMOND
+    Drop-Rate: 1
+    Drop-Message: "You just found a 'Blue Rupee' from the Grass! Don't spend it all in one place!"
+#Health Drop Rate
+  Health:
+    Drop-Rate: 10
+    Drop-Message: "You just earned a 'Heart' from the Grass! Nice!"
+    Drop-From-Mobs: true
+    Drop-Rate-Mobs: 10
+    Drop-Mobs-Message: "You just earned a 'Heart' from the last battle!"
